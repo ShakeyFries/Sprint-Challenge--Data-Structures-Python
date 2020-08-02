@@ -19,4 +19,4 @@ class RingBuffer:
         self.curr = [self.curr + 1] % self.capacity
 
     def get(self):
-        return self.list[self.curr] + self.list[:self.curr]
+        return self.list
